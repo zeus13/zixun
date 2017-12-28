@@ -14,11 +14,11 @@
 
     <!-- 内容 -->
     <div class="column">
-      <div class="column-item" :class="{bgWhite: isClick===1}" @click="clicked(1)">
+      <div class="column-item" :class="{bgWhite: isClick===2}" @click="clicked(1)">
         <img src="../assets/zixun/icon-book2.png" class="icon">
         <p>待参加</p>
       </div>
-      <div class="column-item" :class="{bgWhite: isClick===2}" @click="clicked(2)">
+      <div class="column-item" :class="{bgWhite: isClick===1}" @click="clicked(2)">
         <img src="../assets/zixun/icon-book2.png" class="icon">
         <p>全部票券</p>
       </div>

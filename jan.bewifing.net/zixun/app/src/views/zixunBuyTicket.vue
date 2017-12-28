@@ -226,11 +226,11 @@ export default {
 }
 .tel span {
   position: absolute;
-  top: .2rem;
+  top: .25rem;
 }
 .tel input {
   width: 100%;
-  height: .5rem;
+  height: .55rem;
   padding: .1rem 0 .1rem .7rem;
   padding-left: .7rem;
   outline: none;
