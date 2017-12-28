@@ -1,0 +1,326 @@
+/* CSS reset */
+
+/* 把所有元素去除外边距、内边距 */
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/* 设置页面字体 */
+body{
+  color: #5c656c;
+	font: .24rem/1.3 "San Francisco",Roboto,"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  background: #f7f7f7;
+}
+
+/* 去除a标签在移动端点击出现黑影效果 */
+.clear-click {
+	display:block;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-touch-callout:none;
+}
+
+/* 规范标题字体 */
+h1, h2, h3, h4, h5, h6{
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+input,textarea{
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+em{
+	font-style: normal;
+}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.img-block{
+	width: 100%;
+	display: block;
+}
+/* ul标签去除序号样式 */
+.ul-no-type{
+	list-style-type: none;
+}
+
+/* li标签成排显示 */
+.li-line{
+	float: left;
+}
+
+/* 下划线 */
+.unl{
+	text-decoration: underline;
+}
+
+.no-unl{
+	text-decoration: none;
+}
+
+/* 浮动 */
+.f-l{
+	float: left;
+}
+
+.f-r{
+	float: right;
+}
+
+/* 字体加粗 */
+.f-b{
+	font-weight: bold;
+}
+
+.f-n{
+	font-weight: normal;
+}
+
+/* 文字对齐 */
+.text-l{
+	text-align: left;
+}
+.text-r{
+	text-align: right;
+}
+.text-c{
+	text-align: center;
+}
+.text-j{
+	text-align: justify;
+}
+
+/* 文字 字号 12rem-30rem */
+.f-10{
+	font-size: 1rem;
+}
+.f-11{
+	font-size: 1.1rem;
+}
+.f-12{
+	font-size: 1.2rem;
+}
+.f-14{
+	font-size: 1.4rem;
+}
+.f-16{
+	font-size: 1.6rem;
+}
+.f-18{
+	font-size: 1.8rem;
+}
+
+/* clear 清除浮动*/
+.c-b{
+	clear: both;
+}
+
+/* hideen 元素不可见 */
+.hideen{
+	visibility: hidden;
+}
+.none{
+	display: none;
+}
+/*动画*/
+.loading-enter-active, .loading-leave-active {
+  transition: opacity 1s
+}
+.loading-enter, .loading-leave-active {
+  opacity: 0
+}
+/* 小图标 */
+.lh-3{
+  line-height: .3rem;
+}
+.icons{ 
+  display: inline-block; 
+  width: .3rem;
+  height: .3rem;
+  white-space:nowrap; 
+  letter-spacing: -1em; 
+  text-indent: -99em; 
+  color: transparent;
+}
+.s-icons{ 
+  display: inline-block; 
+  width: .2rem;
+  height: .2rem;
+  white-space:nowrap; 
+  letter-spacing: -1em; 
+  text-indent: -99em; 
+  color: transparent;
+}
+.icons:before,.s-icons:before { 
+    content: '\3000'; 
+}
+.icon-search1{
+  background: url(../img/icon-search1.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-user-red{
+  background: url(../img/icon-user-red.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-map{
+  background: url(../img/icon-map.png?2) no-repeat center; 
+  background-size: .2rem .2rem;
+}
+.icon-ticket-gray{
+  background: url(../img/icon-ticket-gray.png?2) no-repeat center; 
+  background-size: .2rem .2rem;
+}
+.icon-user-blue{
+  background: url(../img/icon-user-blue.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-user-red{
+  background: url(../img/icon-user-red.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-book5{
+  background: url(../img/icon-book5.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-phone{
+  background: url(../img/icon-phone.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-diamond-blue{
+  background: url(../img/icon-diamond-blue.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-diamond-gray{
+  background: url(../img/icon-diamond-gray.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-money{
+  background: url(../img/icon-money.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-money-gray{
+  background: url(../img/icon-money-gray.png?2) no-repeat center; 
+  background-size: .3rem .3rem;
+}
+.icon-book4{
+  background: url(../img/icon-book4.png?2) no-repeat center; 
+  background-size: .2rem .2rem;
+}
+/*滑动选择*/
+.ui_switch {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  position:relative;
+  width:.94rem;
+  height:.54rem;
+  border:0.02rem solid #dfdfdf;
+  outline:0;
+  border-radius:.27rem;
+  box-sizing:border-box;
+  background:#dfdfdf
+}
+.ui_switch:before {
+  width:.9rem;
+  background-color:#fdfdfd
+}
+.ui_switch:after,.ui_switch:before {
+  content:" ";
+  position:absolute;
+  top:0;
+  left:0;
+  height:.5rem;
+  border-radius:.25rem;
+  -webkit-transition:-webkit-transform .3s;
+  transition:-webkit-transform .3s;
+  transition:transform .3s;
+  transition:transform .3s,-webkit-transform .3s
+}
+.ui_switch:after {
+  width:.5rem;
+  background-color:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.4)
+}
+.ui_switch:checked {
+  border-color: #f9c289;
+  background-color: #f9c289;
+}
+.ui_switch:checked:before {
+  -webkit-transform:scale(0);
+  transform:scale(0)
+}
+.ui_switch:checked:after {
+  -webkit-transform:translateX(.4rem);
+  transform:translateX(.4rem)
+}
+
+.foot-blank-div{
+  width: 100%;
+  height: 1rem;
+}
+.foot{
+  width: 100%;
+  background: #fff;
+  height: .8rem;
+  line-height: .8rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: #384275;
+  border-top: 1px solid #f5f5f5;
+}
+.foot .price{
+  display: inline-block;
+  text-indent: .6rem;
+  font-size: .32rem;
+}
+.join-btn{
+  width: 4rem;
+  height: .8rem;
+  background: #384275;
+  text-align: center;
+  position: absolute;
+  color: #fff;
+  top: 0;
+  right: 0;
+}
+.join-btn-gray{
+  width: 4rem;
+  height: .8rem;
+  background: #aeaeae;
+  text-align: center;
+  position: absolute;
+  color: #676767;
+  top: 0;
+  right: 0;
+}
+/* 弹窗动画 */
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity:0;
+        -webkit-transform:scale(.5);
+    }
+    100% {
+        opacity:1;
+        -webkit-transform:scale(1);
+    }
+}
+@keyframes bounceIn {
+    0% {
+        opacity:0;
+        transform:scale(.5)
+    }
+    100% {
+        opacity:1;
+        transform:scale(1)
+    }
+}
+.popup-anim {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: .18s;
+    animation-duration: .18s;
+    animation-name: bounceIn;
+    -webkit-animation-name: bounceIn;
+}

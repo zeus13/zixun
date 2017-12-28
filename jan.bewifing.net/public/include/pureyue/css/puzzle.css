@@ -1,0 +1,222 @@
+body{
+    padding: 0 0;
+    margin: 0 0;
+    background-color: #1e0c48;
+    overflow-x: hidden;
+}
+div{    
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background: url(/include/pureyue/images/backgroud.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    position: absolute;
+    z-index: -9;
+}
+.logo{
+    width: 100px;
+    padding-top: 30px;
+    margin: 0 0 0 30px;
+}
+.type1{
+    color: #fff;
+}
+.center { text-align: center; }
+.actlogo{
+    width: 110px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.returnindex{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.biglogo{
+    width: 60%;
+    min-width: 220px;
+    margin: 0 auto;
+}
+.biglogo img{
+    width: 100%;
+    margin: 90px 0 0;
+}
+.startbnt{
+    width: 100px;
+    margin: 40px auto;
+}
+.botton{
+    width: 150px;
+    margin: 15px auto 0;
+}
+.fish {
+    z-index: -1;
+    position: fixed;
+    width: 150px;
+    height: 110px;
+    bottom: 7%;
+    animation:fish1 8s infinite;
+    -webkit-animation:fish1 8s infinite;
+    animation-timing-function:ease-in;
+    -webkit-animation-timing-function:ease-in;
+}
+
+@-webkit-keyframes fish1 {
+    0% {
+        -webkit-transform: translateX(400px);
+    }
+    40% {
+        -webkit-transform: translateX(100px);
+    }
+    100% {
+        -webkit-transform: translateX(-300px);
+    }
+}
+@keyframes fish1 {
+    0% {
+        transform: translateX(400px);
+    }
+    40% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(-300px);
+    }
+}
+
+.move3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 65px;
+    animation:moveup1 5s infinite;
+    -webkit-animation:moveup1 5s infinite;
+    animation-timing-function:ease-in;
+    -webkit-animation-timing-function:ease-in;
+}
+
+.move4 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    animation:moveup2 6s infinite;
+    -webkit-animation:moveup2 6s infinite;
+    animation-timing-function:ease-in;
+    -webkit-animation-timing-function:ease-in;
+}
+
+@-webkit-keyframes moveup1 {
+    0% {
+        -webkit-transform: translateY(400px);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        opacity: 0;
+    }
+}
+@keyframes moveup1 {
+    0% {
+        transform: translateY(400px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moveup2 {
+    0% {
+        -webkit-transform: translateY(300px);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        opacity: 0;
+    }
+}
+@keyframes moveup2 {
+    0% {
+        transform: translateY(300px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+}
+.mask{
+    position:absolute;
+    z-index:99;
+    background-color:black;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    opacity:.8;
+    display:none;
+}
+#gameresult{
+    position:absolute;
+    z-index:100;
+    top:30%;
+    left:0%;
+    width:100%;
+    height:100%;
+    display:none;
+}
+.resultcontainer{
+    width:80%;
+    margin:auto;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.resultinfo{
+    margin-bottom:40px;
+    font-size:20px;
+    line-height: 30px;
+}
+.resultinfo em{
+    color:red;
+}
+.btngroup{
+    height:60px;
+}
+.btn1{
+    padding:8px 15px;
+    background-color:rgb(93, 86, 145);
+    border-radius:5px;
+}
+.hide{
+    display:none;
+}
+.kapics{
+    text-align:center;
+}
+.abs{
+    position: absolute;
+}
+.rules{
+    background: rgba(255,255,255,.8);
+    border-radius: 10px;
+    border: 2px solid #ff0;
+    padding: 15px;
+    margin: 10px 25px;
+    font-size: 13px;
+    text-align: justify;
+}
+.container{
+    width: 100%;
+    overflow-x: hidden;
+}

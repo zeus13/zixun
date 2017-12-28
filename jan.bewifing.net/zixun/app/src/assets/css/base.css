@@ -1,0 +1,182 @@
+/* CSS reset */
+
+/* 把所有元素去除外边距、内边距 */
+*{
+	margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+
+/* 设置页面字体 */
+body{
+  background: #f7f7f7;
+  color: #333;
+	font: .28rem/1.5 "Microsoft YaHei","Arial",sans-serif;
+}
+
+/* 去除a标签在移动端点击出现黑影效果 */
+.clear-click {
+	display:block;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-touch-callout:none;
+}
+
+/* 规范标题字体 */
+h1, h2, h3, h4, h5, h6{
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+input,textarea{
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+em{
+	font-style: normal;
+}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.img-block{
+	width: 100%;
+	display: block;
+}
+/* ul标签去除序号样式 */
+.ul-no-type{
+	list-style-type: none;
+}
+
+/* li标签成排显示 */
+.li-line{
+	float: left;
+}
+
+/* 下划线 */
+.unl{
+	text-decoration: underline;
+}
+
+.no-unl{
+	text-decoration: none;
+}
+
+/* 浮动 */
+.f-l{
+	float: left;
+}
+
+.f-r{
+	float: right;
+}
+
+/* 字体加粗 */
+.f-b{
+	font-weight: bold;
+}
+
+.f-n{
+	font-weight: normal;
+}
+
+/* 文字对齐 */
+.text-l{
+	text-align: left;
+}
+.text-r{
+	text-align: right;
+}
+.text-c{
+	text-align: center;
+}
+.text-j{
+	text-align: justify;
+}
+
+/* 文字 字号 12rem-30rem */
+.f-10{
+	font-size: 1rem;
+}
+.f-11{
+	font-size: 1.1rem;
+}
+.f-12{
+	font-size: 1.2rem;
+}
+.f-14{
+	font-size: 1.4rem;
+}
+.f-16{
+	font-size: 1.6rem;
+}
+.f-18{
+	font-size: 1.8rem;
+}
+
+/* clear 清除浮动*/
+.c-b{
+	clear: both;
+}
+
+/* hideen 元素不可见 */
+.hideen{
+	visibility: hidden;
+}
+.none{
+	display: none;
+}
+/* 淡出淡入动画 */
+.loading-enter-active, .loading-leave-active {
+  transition: opacity .6s
+}
+.loading-enter, .loading-leave-active {
+  opacity: 0
+}
+/*滑动选择*/
+.ui_switch {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  position:relative;
+  width:.94rem;
+  height:.54rem;
+  border:0.02rem solid #dfdfdf;
+  outline:0;
+  border-radius:.27rem;
+  box-sizing:border-box;
+  background:#dfdfdf
+}
+.ui_switch:before {
+  width:.9rem;
+  background-color:#fdfdfd
+}
+.ui_switch:after,.ui_switch:before {
+  content:" ";
+  position:absolute;
+  top:0;
+  left:0;
+  height:.5rem;
+  border-radius:.25rem;
+  -webkit-transition:-webkit-transform .3s;
+  transition:-webkit-transform .3s;
+  transition:transform .3s;
+  transition:transform .3s,-webkit-transform .3s
+}
+.ui_switch:after {
+  width:.5rem;
+  background-color:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.4)
+}
+.ui_switch:checked {
+  border-color: #d3a543;
+  background-color: #d3a543;
+}
+.ui_switch:checked:before {
+  -webkit-transform:scale(0);
+  transform:scale(0)
+}
+.ui_switch:checked:after {
+  -webkit-transform:translateX(.4rem);
+  transform:translateX(.4rem)
+}

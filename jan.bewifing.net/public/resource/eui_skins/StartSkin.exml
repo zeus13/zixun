@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartSkin" width="600" height="950" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_png" width="600" height="950" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label text="传送带小游戏" y="156" textColor="0x262525" fontFamily="微软雅黑" size="45" textAlign="center" horizontalCenter="0" bold="true" height="58"/>
+	<e:Button id="btn_play" y="737" width="377" height="69" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_play_png" source.down="btn_play1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="btn_sound" source="sound_on_png" x="528" y="88"/>
+</e:Skin>

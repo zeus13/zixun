@@ -1,0 +1,136 @@
+/* CSS reset */
+
+/* 把所有元素去除外边距、内边距 */
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/* 设置页面字体 */
+body{
+	font: .24rem/1.5 "PingFangSC-Light","Arial","Microsoft YaHei",sans-serif;
+	background: #f7f7f7;
+}
+div {
+	box-sizing: border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+/* 去除a标签在移动端点击出现黑影效果 */
+.clear-click {
+	display:block;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-touch-callout:none;
+}
+
+/* 规范标题字体 */
+h1, h2, h3, h4, h5, h6{
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Microsoft YaHei", Arial;
+}
+em{
+	font-style: normal;
+}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.img-block{
+	width: 100%;
+	display: block;
+}
+/* ul标签去除序号样式 */
+.ul-no-type{
+	list-style-type: none;
+}
+
+/* li标签成排显示 */
+.li-line{
+	float: left;
+}
+
+/* 下划线 */
+.unl{
+	text-decoration: underline;
+}
+
+.no-unl{
+	text-decoration: none;
+}
+
+/* 浮动 */
+.f-l{
+	float: left;
+}
+
+.f-r{
+	float: right;
+}
+
+/* 字体加粗 */
+.f-b{
+	font-weight: bold;
+}
+
+.f-n{
+	font-weight: normal;
+}
+
+/* 文字对齐 */
+.text-l{
+	text-align: left;
+}
+.text-r{
+	text-align: right;
+}
+.text-c{
+	text-align: center;
+}
+.text-j{
+	text-align: justify;
+}
+
+/* 文字 字号 12rem-30rem */
+.f-10{
+	font-size: 1rem;
+}
+.f-11{
+	font-size: 1.1rem;
+}
+.f-12{
+	font-size: 1.2rem;
+}
+.f-14{
+	font-size: 1.4rem;
+}
+.f-16{
+	font-size: 1.6rem;
+}
+.f-18{
+	font-size: 1.8rem;
+}
+
+/* clear 清除浮动*/
+.c-b{
+	clear: both;
+}
+
+/* hideen 元素不可见 */
+.hideen{
+	visibility: hidden;
+}
+.none{
+	display: none;
+}
+.fs02 {
+  font-size: 0.2rem;
+}
+.fs026 {
+	font-size: 0.26rem;
+}
+.fl {
+  float:left;
+}
+.fr {
+  float: right;
+}

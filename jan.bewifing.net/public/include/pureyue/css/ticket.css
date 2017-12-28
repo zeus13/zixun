@@ -1,0 +1,202 @@
+* {
+	margin:0 0;
+	padding:0 0;
+}
+a {
+	display:block;
+	-webkit-user-select:none;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-touch-callout:none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	background-color: #442855;
+	color: #fff;
+	padding: 5px 0;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+header .haeder-img{
+	margin: 0 5px;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	overflow: hidden;
+}
+header .nickname{
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 52px;
+}
+.container {
+	max-width:500px;
+	margin:0 auto;
+	position: relative;
+}
+.container .copy-ticket{
+	width: 50%;
+	height: 101px;
+	border: 1px solid #5b00a8;
+	border-radius: 10px;
+	text-align: center;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.container .copy-ticket .ticket{
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #5b00a8;
+    color: #FFF;
+}
+.container .copy-ticket .tip{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	border-top: 1px solid #5b00a8;
+	color: #5b00a8;
+}
+.container .take-btn{
+	width: 50%;
+	height: 40px;
+	background-color: #5b00a8;
+	border-radius: 10px;
+	text-align: center;
+	margin: 30px auto;
+	font-size: 15px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: bold;
+}
+.container .take-btn a{
+	color: #fff;
+}
+#section-1, #section-2{
+	background-color: #3f196e;
+}
+#section-1{
+	padding-top: 32px;
+}
+#section-2 .rude-title{
+	width: 100%;
+}
+#section-2 .rude-box{
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px 0;
+	background-color: #006937;
+	color: #fff;
+	font-size: 13px;
+	text-align: justify;
+}
+#section-2 .rude-box .rude-show{
+	width: 90%;
+	margin: 0 auto;
+}
+#section-2 .rude-box .rude-hide{
+	width: 90%;
+	margin: 0 auto;
+}
+#section-2 .rude-box .more{
+	text-align: center;
+	color: #FFCC00;
+	text-decoration: underline;
+}
+#section-2 .wave-1{
+	width: 100%;
+	height: 21px;
+	background-image: url(../images/wave-1.jpg);
+	background-size: 17px 21px;
+	background-repeat: repeat-x;
+}
+#section-3{
+	background-color: #00401E;
+	padding: 10px 0;
+}
+#section-3 .ticket-title{
+	width: 100%;
+}
+#section-3 .ticket{
+	width: 80%;
+	margin: 10px auto;
+}
+#section-4 .wave-2{
+	width: 100%;
+	height: 21px;
+	background-image: url(../images/wave-2.jpg);
+	background-size: 17px 21px;
+	background-repeat: repeat-x;
+}
+#section-4{
+	background-color: #00A94F;
+}
+#section-4 .prize-list-title{
+	width: 100%;
+}
+#section-4 .prize-list{
+	padding: 10px 20px;
+	list-style-type: none;
+}
+#section-4 .prize-list li{
+	width: 100%;
+	position: relative;
+	border-top: 1px dashed #fff;
+	padding: 10px 0;
+}
+#section-4 .prize-list .prize-header-img{
+	margin: 0 5px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#section-4 .prize-list .prize-info{
+	position: absolute;
+	top: 10px;
+	left: 80px;
+}
+#section-4 .prize-list .prize-info .prize-text{
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	color: #fff;
+}
+#section-4 .prize-list .prize-time{
+	position: absolute;
+	top: 15px;
+	right: 0;
+	color: #fff;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+#section-4 .prize-list .prize-time span{
+	width: 12px;
+	display: block;
+	position: absolute;
+	left: -18px;
+    top: 2px;
+}
+#section-4 .prize-list .prize-text span{
+	width: 15px;
+	display: inline-block;
+}
+.hide{
+	display: none;
+}
+#more{
+	text-align: center;
+	color: #FFCC00;
+	text-decoration: underline;
+	padding-bottom: 15px;
+}

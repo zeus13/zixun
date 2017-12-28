@@ -1,0 +1,2145 @@
+@charset "UTF-8";
+.car {
+  position: absolute;
+  left: 2.86rem;
+  top: 8.75rem;
+}
+.carimg {
+  width: .4rem;
+}
+.map {
+  transform: translateX(0);
+}
+.bg {
+  width: 34.31rem;
+  height: 11.36rem;
+  position: absolute;
+}
+@keyframes map0to1 {
+  from {
+    transform: translateX(0rem);
+  }
+  to {
+    transform: translateX(-0.566rem);
+  }
+}
+.map0to1 {
+  animation-name: map0to1;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map1to2 {
+  from {
+    transform: translateX(-0.566rem);
+  }
+  to {
+    transform: translateX(-1.132rem);
+  }
+}
+.map1to2 {
+  animation-name: map1to2;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map2to3 {
+  from {
+    transform: translateX(-1.132rem);
+  }
+  to {
+    transform: translateX(-1.698rem);
+  }
+}
+.map2to3 {
+  animation-name: map2to3;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map3to4 {
+  from {
+    transform: translateX(-1.698rem);
+  }
+  to {
+    transform: translateX(-2.264rem);
+  }
+}
+.map3to4 {
+  animation-name: map3to4;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map4to5 {
+  from {
+    transform: translateX(-2.264rem);
+  }
+  to {
+    transform: translateX(-2.83rem);
+  }
+}
+.map4to5 {
+  animation-name: map4to5;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map5to6 {
+  from {
+    transform: translateX(-2.83rem);
+  }
+  to {
+    transform: translateX(-3.396rem);
+  }
+}
+.map5to6 {
+  animation-name: map5to6;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map6to7 {
+  from {
+    transform: translateX(-3.396rem);
+  }
+  to {
+    transform: translateX(-3.962rem);
+  }
+}
+.map6to7 {
+  animation-name: map6to7;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map7to8 {
+  from {
+    transform: translateX(-3.962rem);
+  }
+  to {
+    transform: translateX(-4.528rem);
+  }
+}
+.map7to8 {
+  animation-name: map7to8;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map8to9 {
+  from {
+    transform: translateX(-4.528rem);
+  }
+  to {
+    transform: translateX(-5.094rem);
+  }
+}
+.map8to9 {
+  animation-name: map8to9;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map9to10 {
+  from {
+    transform: translateX(-5.094rem);
+  }
+  to {
+    transform: translateX(-5.66rem);
+  }
+}
+.map9to10 {
+  animation-name: map9to10;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map10to11 {
+  from {
+    transform: translateX(-5.66rem);
+  }
+  to {
+    transform: translateX(-6.226rem);
+  }
+}
+.map10to11 {
+  animation-name: map10to11;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map11to12 {
+  from {
+    transform: translateX(-6.226rem);
+  }
+  to {
+    transform: translateX(-6.792rem);
+  }
+}
+.map11to12 {
+  animation-name: map11to12;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map12to13 {
+  from {
+    transform: translateX(-6.792rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map12to13 {
+  animation-name: map12to13;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map13to14 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map13to14 {
+  animation-name: map13to14;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map14to15 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map14to15 {
+  animation-name: map14to15;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map15to16 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map15to16 {
+  animation-name: map15to16;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map16to17 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map16to17 {
+  animation-name: map16to17;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map17to18 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map17to18 {
+  animation-name: map17to18;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map18to19 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map18to19 {
+  animation-name: map18to19;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map19to20 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map19to20 {
+  animation-name: map19to20;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map20to21 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.358rem);
+  }
+}
+.map20to21 {
+  animation-name: map20to21;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map21to22 {
+  from {
+    transform: translateX(-7.358rem);
+  }
+  to {
+    transform: translateX(-7.924rem);
+  }
+}
+.map21to22 {
+  animation-name: map21to22;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map22to23 {
+  from {
+    transform: translateX(-7.924rem);
+  }
+  to {
+    transform: translateX(-8.49rem);
+  }
+}
+.map22to23 {
+  animation-name: map22to23;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map23to24 {
+  from {
+    transform: translateX(-8.49rem);
+  }
+  to {
+    transform: translateX(-9.056rem);
+  }
+}
+.map23to24 {
+  animation-name: map23to24;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map24to25 {
+  from {
+    transform: translateX(-9.056rem);
+  }
+  to {
+    transform: translateX(-9.622rem);
+  }
+}
+.map24to25 {
+  animation-name: map24to25;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map25to26 {
+  from {
+    transform: translateX(-9.622rem);
+  }
+  to {
+    transform: translateX(-10.188rem);
+  }
+}
+.map25to26 {
+  animation-name: map25to26;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map26to27 {
+  from {
+    transform: translateX(-10.188rem);
+  }
+  to {
+    transform: translateX(-10.754rem);
+  }
+}
+.map26to27 {
+  animation-name: map26to27;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map27to28 {
+  from {
+    transform: translateX(-10.754rem);
+  }
+  to {
+    transform: translateX(-11.32rem);
+  }
+}
+.map27to28 {
+  animation-name: map27to28;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map28to29 {
+  from {
+    transform: translateX(-11.32rem);
+  }
+  to {
+    transform: translateX(-11.886rem);
+  }
+}
+.map28to29 {
+  animation-name: map28to29;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map29to30 {
+  from {
+    transform: translateX(-11.886rem);
+  }
+  to {
+    transform: translateX(-12.452rem);
+  }
+}
+.map29to30 {
+  animation-name: map29to30;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map30to31 {
+  from {
+    transform: translateX(-12.452rem);
+  }
+  to {
+    transform: translateX(-13.018rem);
+  }
+}
+.map30to31 {
+  animation-name: map30to31;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map31to32 {
+  from {
+    transform: translateX(-13.018rem);
+  }
+  to {
+    transform: translateX(-13.584rem);
+  }
+}
+.map31to32 {
+  animation-name: map31to32;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map32to33 {
+  from {
+    transform: translateX(-13.584rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map32to33 {
+  animation-name: map32to33;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map33to34 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map33to34 {
+  animation-name: map33to34;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map34to35 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map34to35 {
+  animation-name: map34to35;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map35to36 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map35to36 {
+  animation-name: map35to36;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map36to37 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map36to37 {
+  animation-name: map36to37;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map37to38 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map37to38 {
+  animation-name: map37to38;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map38to39 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map38to39 {
+  animation-name: map38to39;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map39to40 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map39to40 {
+  animation-name: map39to40;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map40to41 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map40to41 {
+  animation-name: map40to41;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map41to42 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map41to42 {
+  animation-name: map41to42;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map42to43 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map42to43 {
+  animation-name: map42to43;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map43to44 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map43to44 {
+  animation-name: map43to44;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map44to45 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map44to45 {
+  animation-name: map44to45;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map45to46 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map45to46 {
+  animation-name: map45to46;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map46to47 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map46to47 {
+  animation-name: map46to47;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map47to48 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map47to48 {
+  animation-name: map47to48;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map48to49 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.15rem);
+  }
+}
+.map48to49 {
+  animation-name: map48to49;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map49to50 {
+  from {
+    transform: translateX(-14.15rem);
+  }
+  to {
+    transform: translateX(-14.716rem);
+  }
+}
+.map49to50 {
+  animation-name: map49to50;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map50to51 {
+  from {
+    transform: translateX(-14.716rem);
+  }
+  to {
+    transform: translateX(-15.282rem);
+  }
+}
+.map50to51 {
+  animation-name: map50to51;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map51to52 {
+  from {
+    transform: translateX(-15.282rem);
+  }
+  to {
+    transform: translateX(-15.848rem);
+  }
+}
+.map51to52 {
+  animation-name: map51to52;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map52to53 {
+  from {
+    transform: translateX(-15.848rem);
+  }
+  to {
+    transform: translateX(-16.414rem);
+  }
+}
+.map52to53 {
+  animation-name: map52to53;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map53to54 {
+  from {
+    transform: translateX(-16.414rem);
+  }
+  to {
+    transform: translateX(-16.98rem);
+  }
+}
+.map53to54 {
+  animation-name: map53to54;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map54to55 {
+  from {
+    transform: translateX(-16.98rem);
+  }
+  to {
+    transform: translateX(-17.546rem);
+  }
+}
+.map54to55 {
+  animation-name: map54to55;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map55to56 {
+  from {
+    transform: translateX(-17.546rem);
+  }
+  to {
+    transform: translateX(-18.112rem);
+  }
+}
+.map55to56 {
+  animation-name: map55to56;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map56to57 {
+  from {
+    transform: translateX(-18.112rem);
+  }
+  to {
+    transform: translateX(-18.678rem);
+  }
+}
+.map56to57 {
+  animation-name: map56to57;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map57to58 {
+  from {
+    transform: translateX(-18.678rem);
+  }
+  to {
+    transform: translateX(-19.244rem);
+  }
+}
+.map57to58 {
+  animation-name: map57to58;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map58to59 {
+  from {
+    transform: translateX(-19.244rem);
+  }
+  to {
+    transform: translateX(-19.81rem);
+  }
+}
+.map58to59 {
+  animation-name: map58to59;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map59to60 {
+  from {
+    transform: translateX(-19.81rem);
+  }
+  to {
+    transform: translateX(-20.376rem);
+  }
+}
+.map59to60 {
+  animation-name: map59to60;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map60to61 {
+  from {
+    transform: translateX(-20.376rem);
+  }
+  to {
+    transform: translateX(-20.942rem);
+  }
+}
+.map60to61 {
+  animation-name: map60to61;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map61to62 {
+  from {
+    transform: translateX(-20.942rem);
+  }
+  to {
+    transform: translateX(-21.508rem);
+  }
+}
+.map61to62 {
+  animation-name: map61to62;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map62to63 {
+  from {
+    transform: translateX(-21.508rem);
+  }
+  to {
+    transform: translateX(-21.508rem);
+  }
+}
+.map62to63 {
+  animation-name: map62to63;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map63to64 {
+  from {
+    transform: translateX(-21.508rem);
+  }
+  to {
+    transform: translateX(-21.508rem);
+  }
+}
+.map63to64 {
+  animation-name: map63to64;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map64to65 {
+  from {
+    transform: translateX(-21.508rem);
+  }
+  to {
+    transform: translateX(-21.508rem);
+  }
+}
+.map64to65 {
+  animation-name: map64to65;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map65to66 {
+  from {
+    transform: translateX(-21.508rem);
+  }
+  to {
+    transform: translateX(-22.074rem);
+  }
+}
+.map65to66 {
+  animation-name: map65to66;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map66to67 {
+  from {
+    transform: translateX(-22.074rem);
+  }
+  to {
+    transform: translateX(-22.64rem);
+  }
+}
+.map66to67 {
+  animation-name: map66to67;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map67to68 {
+  from {
+    transform: translateX(-22.64rem);
+  }
+  to {
+    transform: translateX(-23.206rem);
+  }
+}
+.map67to68 {
+  animation-name: map67to68;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map68to69 {
+  from {
+    transform: translateX(-23.206rem);
+  }
+  to {
+    transform: translateX(-23.772rem);
+  }
+}
+.map68to69 {
+  animation-name: map68to69;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map69to70 {
+  from {
+    transform: translateX(-23.772rem);
+  }
+  to {
+    transform: translateX(-24.338rem);
+  }
+}
+.map69to70 {
+  animation-name: map69to70;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map70to71 {
+  from {
+    transform: translateX(-24.338rem);
+  }
+  to {
+    transform: translateX(-24.904rem);
+  }
+}
+.map70to71 {
+  animation-name: map70to71;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map71to72 {
+  from {
+    transform: translateX(-24.904rem);
+  }
+  to {
+    transform: translateX(-25.47rem);
+  }
+}
+.map71to72 {
+  animation-name: map71to72;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map72to73 {
+  from {
+    transform: translateX(-25.47rem);
+  }
+  to {
+    transform: translateX(-26.036rem);
+  }
+}
+.map72to73 {
+  animation-name: map72to73;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map73to74 {
+  from {
+    transform: translateX(-26.036rem);
+  }
+  to {
+    transform: translateX(-26.602rem);
+  }
+}
+.map73to74 {
+  animation-name: map73to74;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map74to75 {
+  from {
+    transform: translateX(-26.602rem);
+  }
+  to {
+    transform: translateX(-27.168rem);
+  }
+}
+.map74to75 {
+  animation-name: map74to75;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes map75to76 {
+  from {
+    transform: translateX(-27.168rem);
+  }
+  to {
+    transform: translateX(-27.734rem);
+  }
+}
+.map75to76 {
+  animation-name: map75to76;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car0to1 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car0to1 {
+  animation-name: car0to1;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car1to2 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car1to2 {
+  animation-name: car1to2;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car2to3 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car2to3 {
+  animation-name: car2to3;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car3to4 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car3to4 {
+  animation-name: car3to4;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car4to5 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car4to5 {
+  animation-name: car4to5;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car5to6 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car5to6 {
+  animation-name: car5to6;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car6to7 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car6to7 {
+  animation-name: car6to7;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car7to8 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car7to8 {
+  animation-name: car7to8;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car8to9 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car8to9 {
+  animation-name: car8to9;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car9to10 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car9to10 {
+  animation-name: car9to10;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car10to11 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car10to11 {
+  animation-name: car10to11;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car11to12 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car11to12 {
+  animation-name: car11to12;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car12to13 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car12to13 {
+  animation-name: car12to13;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car13to14 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(-0.566rem);
+  }
+}
+.car13to14 {
+  animation-name: car13to14;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car14to15 {
+  from {
+    transform: translateY(-0.566rem);
+  }
+  to {
+    transform: translateY(-1.132rem);
+  }
+}
+.car14to15 {
+  animation-name: car14to15;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car15to16 {
+  from {
+    transform: translateY(-1.132rem);
+  }
+  to {
+    transform: translateY(-1.698rem);
+  }
+}
+.car15to16 {
+  animation-name: car15to16;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car16to17 {
+  from {
+    transform: translateY(-1.698rem);
+  }
+  to {
+    transform: translateY(-2.264rem);
+  }
+}
+.car16to17 {
+  animation-name: car16to17;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car17to18 {
+  from {
+    transform: translateY(-2.264rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car17to18 {
+  animation-name: car17to18;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car18to19 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-3.396rem);
+  }
+}
+.car18to19 {
+  animation-name: car18to19;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car19to20 {
+  from {
+    transform: translateY(-3.396rem);
+  }
+  to {
+    transform: translateY(-3.962rem);
+  }
+}
+.car19to20 {
+  animation-name: car19to20;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car20to21 {
+  from {
+    transform: translateY(-3.962rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car20to21 {
+  animation-name: car20to21;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car21to22 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car21to22 {
+  animation-name: car21to22;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car22to23 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car22to23 {
+  animation-name: car22to23;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car23to24 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car23to24 {
+  animation-name: car23to24;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car24to25 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car24to25 {
+  animation-name: car24to25;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car25to26 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car25to26 {
+  animation-name: car25to26;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car26to27 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car26to27 {
+  animation-name: car26to27;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car27to28 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car27to28 {
+  animation-name: car27to28;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car28to29 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car28to29 {
+  animation-name: car28to29;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car29to30 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car29to30 {
+  animation-name: car29to30;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car30to31 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car30to31 {
+  animation-name: car30to31;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car31to32 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car31to32 {
+  animation-name: car31to32;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car32to33 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car32to33 {
+  animation-name: car32to33;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car33to34 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-3.962rem);
+  }
+}
+.car33to34 {
+  animation-name: car33to34;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car34to35 {
+  from {
+    transform: translateY(-3.962rem);
+  }
+  to {
+    transform: translateY(-3.396rem);
+  }
+}
+.car34to35 {
+  animation-name: car34to35;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car35to36 {
+  from {
+    transform: translateY(-3.396rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car35to36 {
+  animation-name: car35to36;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car36to37 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.264rem);
+  }
+}
+.car36to37 {
+  animation-name: car36to37;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car37to38 {
+  from {
+    transform: translateY(-2.264rem);
+  }
+  to {
+    transform: translateY(-1.698rem);
+  }
+}
+.car37to38 {
+  animation-name: car37to38;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car38to39 {
+  from {
+    transform: translateY(-1.698rem);
+  }
+  to {
+    transform: translateY(-1.132rem);
+  }
+}
+.car38to39 {
+  animation-name: car38to39;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car39to40 {
+  from {
+    transform: translateY(-1.132rem);
+  }
+  to {
+    transform: translateY(-0.566rem);
+  }
+}
+.car39to40 {
+  animation-name: car39to40;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car40to41 {
+  from {
+    transform: translateY(-0.566rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.car40to41 {
+  animation-name: car40to41;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car41to42 {
+  from {
+    transform: translateY(0rem);
+  }
+  to {
+    transform: translateY(-0.566rem);
+  }
+}
+.car41to42 {
+  animation-name: car41to42;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car42to43 {
+  from {
+    transform: translateY(-0.566rem);
+  }
+  to {
+    transform: translateY(-1.132rem);
+  }
+}
+.car42to43 {
+  animation-name: car42to43;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car43to44 {
+  from {
+    transform: translateY(-1.132rem);
+  }
+  to {
+    transform: translateY(-1.698rem);
+  }
+}
+.car43to44 {
+  animation-name: car43to44;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car44to45 {
+  from {
+    transform: translateY(-1.698rem);
+  }
+  to {
+    transform: translateY(-2.264rem);
+  }
+}
+.car44to45 {
+  animation-name: car44to45;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car45to46 {
+  from {
+    transform: translateY(-2.264rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car45to46 {
+  animation-name: car45to46;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car46to47 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-3.396rem);
+  }
+}
+.car46to47 {
+  animation-name: car46to47;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car47to48 {
+  from {
+    transform: translateY(-3.396rem);
+  }
+  to {
+    transform: translateY(-3.962rem);
+  }
+}
+.car47to48 {
+  animation-name: car47to48;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car48to49 {
+  from {
+    transform: translateY(-3.962rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car48to49 {
+  animation-name: car48to49;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car49to50 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car49to50 {
+  animation-name: car49to50;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car50to51 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car50to51 {
+  animation-name: car50to51;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car51to52 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car51to52 {
+  animation-name: car51to52;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car52to53 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car52to53 {
+  animation-name: car52to53;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car53to54 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car53to54 {
+  animation-name: car53to54;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car54to55 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car54to55 {
+  animation-name: car54to55;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car55to56 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car55to56 {
+  animation-name: car55to56;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car56to57 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car56to57 {
+  animation-name: car56to57;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car57to58 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car57to58 {
+  animation-name: car57to58;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car58to59 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car58to59 {
+  animation-name: car58to59;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car59to60 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car59to60 {
+  animation-name: car59to60;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car60to61 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car60to61 {
+  animation-name: car60to61;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car61to62 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-4.528rem);
+  }
+}
+.car61to62 {
+  animation-name: car61to62;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car62to63 {
+  from {
+    transform: translateY(-4.528rem);
+  }
+  to {
+    transform: translateY(-3.962rem);
+  }
+}
+.car62to63 {
+  animation-name: car62to63;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car63to64 {
+  from {
+    transform: translateY(-3.962rem);
+  }
+  to {
+    transform: translateY(-3.396rem);
+  }
+}
+.car63to64 {
+  animation-name: car63to64;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car64to65 {
+  from {
+    transform: translateY(-3.396rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car64to65 {
+  animation-name: car64to65;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car65to66 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car65to66 {
+  animation-name: car65to66;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car66to67 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car66to67 {
+  animation-name: car66to67;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car67to68 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car67to68 {
+  animation-name: car67to68;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car68to69 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car68to69 {
+  animation-name: car68to69;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car69to70 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car69to70 {
+  animation-name: car69to70;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car70to71 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car70to71 {
+  animation-name: car70to71;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car71to72 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car71to72 {
+  animation-name: car71to72;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car72to73 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car72to73 {
+  animation-name: car72to73;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car73to74 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car73to74 {
+  animation-name: car73to74;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car74to75 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car74to75 {
+  animation-name: car74to75;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes car75to76 {
+  from {
+    transform: translateY(-2.83rem);
+  }
+  to {
+    transform: translateY(-2.83rem);
+  }
+}
+.car75to76 {
+  animation-name: car75to76;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}

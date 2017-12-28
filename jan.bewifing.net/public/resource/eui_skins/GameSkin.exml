@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSkin" width="600" height="950" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="gamebg_png" verticalCenter="0" width="600" horizontalCenter="0" locked="true"/>
+	<e:Image id="wheel" source="wheel0_png" x="218" y="361"/>
+	<e:Image source="wheel0_png" y="706" id="wheel0" x="218"/>
+	<e:Group id="gp_c" height="898" width="147" x="228" y="53" locked="true">
+		<e:Image source="conveyer1_png" x="0" y="0"/>
+		<e:Image source="conveyer1_png" y="56" x="0"/>
+		<e:Image source="conveyer1_png" y="112" x="0"/>
+		<e:Image source="conveyer1_png" y="168" x="0"/>
+		<e:Image source="conveyer1_png" y="224" x="0"/>
+		<e:Image source="conveyer1_png" y="280" x="0"/>
+		<e:Image source="conveyer1_png" y="336" x="0"/>
+		<e:Image source="conveyer1_png" y="392" x="0"/>
+		<e:Image source="conveyer1_png" y="448" x="0"/>
+		<e:Image source="conveyer1_png" y="504" x="0"/>
+		<e:Image source="conveyer1_png" y="560" x="0"/>
+		<e:Image source="conveyer1_png" y="616" x="0"/>
+		<e:Image source="conveyer1_png" y="672" x="0"/>
+		<e:Image source="conveyer1_png" y="728" x="0"/>
+		<e:Image source="conveyer1_png" y="784" x="0"/>
+		<e:Image source="conveyer1_png" y="840" x="0"/>
+	</e:Group>
+	<e:Image source="gameui1_png" x="0" y="8" locked="true"/>
+	<e:Image source="conveyer_png" y="119" horizontalCenter="1.5" locked="true" visible="false"/>
+	<e:Label id="lb_score" text="0" x="462" y="88" textColor="0x000000" width="71" size="30" textAlign="center" bold="true" alpha="3" locked="true"/>
+	<e:Group id="gp_conveyer" height="838" width="96" x="242" y="111" locked="true">
+	</e:Group>
+	<e:Group id="gp_packages" height="728" width="600" x="0" y="223" locked="true">
+		<ns1:Package y="0" Pos="1" skinName="Package1Skin"/>
+		<ns1:Package x="0" y="235" Pos="2" skinName="Package1Skin"/>
+		<ns1:Package y="484" Pos="3" skinName="Package1Skin" x="0"/>
+		<ns1:Package x="452" y="0" Pos="4" skinName="Package1Skin"/>
+		<ns1:Package y="235" Pos="5" skinName="Package1Skin" x="452"/>
+		<ns1:Package x="452" y="484" Pos="6" skinName="Package1Skin"/>
+	</e:Group>
+	<e:Group id="gp_over" height="950" width="600" x="0" y="0" locked="true" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+		<e:Image source="overpanel_png" y="32" horizontalCenter="0"/>
+		<e:Label id="failureTips" y="121" horizontalCenter="0" size="45" fontFamily="微软雅黑" bold="true"/>
+		<e:Label text="分数：" x="169" y="195" size="40" bold="true" fontFamily="微软雅黑"/>
+		<e:Label id="lb_overscore" text="0" x="290" y="196" size="45" fontFamily="微软雅黑" bold="true"/>
+		<e:Image source="overrole_png" y="410" horizontalCenter="0"/>
+		<e:Button id="btn_replay" y="770" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_replay_png" source.down="btn_replay1_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_mainmenu" y="858" horizontalCenter="-0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_start_png" source.down="btn_start1_png"/>
+					<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>
