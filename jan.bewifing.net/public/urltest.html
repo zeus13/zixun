@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes"/>
+	<title>测试url跳转</title>
+	<style type="text/css">
+		.btn {
+			background: red;
+			color: #fff;
+			width: 300px;
+			height: 60px;
+			margin: 60px auto;
+		}
+		.cont {
+			border: 1 px solid red;
+			color: #000;
+			width: 300px;
+			padding: 20px;
+			margin: 60px auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="btn" onclick="tiaozhuan('https://v.eqxiu.cn/s/PXDArC1P')">跳转</div>
+	<div class="btn" onclick="setCache()">设置信息</div>
+	<div class="cont">第一次进来</div>
+	<div id="time">11</div>
+</body>
+</html>
+<script src="http://cmcccdn.bewifing.net/jquery.min.1.9.1.js"></script> 
+<script src='http://bewifing.net/getToken'></script>
+<script type="text/javascript">
+	$('#time').html(window.jssdk.timestamp);
+	var total = 0;
+	function tiaozhuan(url) {
+		window.location.href = url;
+	}
+	function setCache () {
+		total++;
+		$('.cont').html('第'+total+'次进来');
+	}
+
+    $.ajax({
+        type: "GET",
+        cache: false,
+        url: "/doc",
+    　　timeout: 3000, //超时时间设置，单位毫秒 TODO
+        dataType: "json",
+        data: {activity_id: 2, tel: 'nUonxlxXm64tdI2HlMAIq+06rNPqEw7N', track: 2},
+        success: function(data){
+			$('.cont').html('第'+data+'次进来');
+        },
+        error: function(){
+            console.log('网络出错');
+        }
+    });
+</script>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>实时视频位置：五里冲二 五里冲二 单元 53栋后</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0" name="viewport"></meta>
+    <meta name="keywords" content="实时视频位置：五里冲二 五里冲二 单元 53栋后"/>
+    <meta name="description" content="实时视频位置：五里冲二 五里冲二 单元 53栋后"/>
+    <link rel="stylesheet" type="text/css" href="https://farm.yangyangla.com/assets/video/common.css"/>
+    <style>
+       html,body,#content{height: 100%; width: 100%; overflow:hidden;background-color: #000 !important;line-height: 100%;}
+       #HLSPlayer{width: 360px;height: 270px;display: block;vertical-align: middle;margin: 0 auto;}
+       object{float:left;}
+	</style>
+</head>
+<body>
+<!--content/begin-->
+<div id="content" >
+<!--HLSPlayer代码开始 ========================================== -->
+<div class="video" id="HLSPlayer" >
+<script>
+<!--
+/*
+* HLSPlayer参数应用=========================
+* @param {Object} vID        ID
+* @param {Object} vWidth     播放器宽度设置
+* @param {Object} vHeight    播放器宽度设置
+* @param {Object} vPlayer    播放器文件
+* @param {Object} vHLSset    HLS配置
+* @param {Object} vPic       视频缩略图
+* @param {Object} vCssurl    移动端CSS应用文件
+* @param {Object} vHLSurl    HLS(m3u8)地址
+* ==========================================
+*/
+var vID        = ""; 
+var vWidth     = "100%";                //播放器宽度设置
+var vHeight    = "100%";                   //播放器宽度设置
+var vPlayer    = "https://farm.yangyangla.com/assets/video/HLSPlayer.swf?autostart=true&v=1.5"; //播放器文件
+var vHLSset    = "https://farm.yangyangla.com/assets/video/HLS.swf";             //HLS配置
+var vPic       = "https://pics.yangyangla.com/spjt/17072112040233ae3916.jpg";    //视频缩略图
+var vCssurl    = "https://farm.yangyangla.com/assets/video/mini.css";     //移动端CSS应用文件
+//HLS(m3u8)地址,适配PC,安卓,iOS,WP
+var vHLSurl = "http://hls.open.ys7.com/openlive/54d9faca4f8f4c39b09a7cbc37e52710.hd.m3u8";
+//-->
+</script> 
+<script src="hlsV2.js?rand=1514369081"></script>
+</div>
+<script>
+	window.onresize = (function resize(){
+		console.log((window.innerHeight*(36/27)), window.innerHeight, window.innerWidth , window.innerHeight, window.innerWidth < window.innerHeight)
+		var dom = document.getElementById("HLSPlayer");
+		if(window.innerWidth / window.innerHeight < 36/27){
+			dom.style.width  = window.innerWidth+"px";
+			dom.style.height = (window.innerWidth/(36/27))+"px";
+			dom.style.marginTop = (window.innerHeight/2-window.innerWidth/(36/27)/2) + "px";
+		}else{
+			dom.style.width  = (window.innerHeight*(36/27))+"px";
+			dom.style.height = window.innerHeight+"px";
+		}
+		return resize;
+	})();
+</script>
+<!--HLSPlayer代码结束 ========================================== -->
+</body>
+</html>
